@@ -41,6 +41,7 @@ export default function Form(props) {
         {errors.password && 'Password is required.'}
       </label>
       <br />
+      <button type="button">New User</button>
       <button type="submit">Submit</button>
     </form>
   );
