@@ -7,5 +7,6 @@ chmod 777 RD.sh
 echo "$info" >> log.txt
 
 # Ship it
+git checkout feature
 git add log.txt
 git commit -m "$info"

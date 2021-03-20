@@ -6,6 +6,7 @@ chmod 777 AutoPush.sh
 
 
 echo "pushing to feature branch: $(date)" >> log.txt
+git checkout feature
 git push origin feature
 
 #55 11 * * 1-5 /bin/bash//Users/blake/Desktop/MVP/PopCorn/AutoPush.sh
