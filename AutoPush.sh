@@ -1,11 +1,11 @@
 #!/bin/bash
 cd /Users/blake/Desktop/MVP/PopCorn
-echo "pushing to feature branch: $(date)"
+echo "pushed to feature branch: $(date)"
 chmod 777 log.txt
 chmod 777 AutoPush.sh
 
 
-echo "pushing to feature branch: $(date)" >> log.txt
+echo "pushed to feature branch: $(date)" >> log.txt
 git checkout feature
 git push origin feature
 

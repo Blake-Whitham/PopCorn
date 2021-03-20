@@ -1,6 +1,6 @@
 #!/bin/bash
 
-info="Commit: $(date)"
+info="Committed: $(date)"
 cd /Users/blake/Desktop/MVP/PopCorn
 chmod 777 log.txt
 chmod 777 RD.sh
