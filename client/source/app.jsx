@@ -4,8 +4,6 @@ import Form from './components/login/form';
 import Icon from './static/icon';
 import TopRated from './components/movies/topRated';
 
-// import { browserRouter, Route, Switch } from "react-router-dom";
-
 export default function App() {
   const [loading, setLoading] = useState(true);
   const [user, setUser] = useState(false);
